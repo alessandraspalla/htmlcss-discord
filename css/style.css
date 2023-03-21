@@ -7,13 +7,21 @@
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: white;
 }
 
 .container {
@@ -98,6 +106,15 @@ h2 {
     margin-top: 15px;
 }
 
+.button.sign-up {
+    color: #23272a;
+}
+
+.button.purple {
+    color: white;
+    background-color: #7289da;
+}
+
 /* image style */
 
 .img {
@@ -105,8 +122,9 @@ h2 {
 }
 
 /* section style */
-.last-section {
-    padding: 50px 0;
+
+.background-grey {
+    background-color: #f6f6f6;
 }
 
 .flex.text {
@@ -114,22 +132,55 @@ h2 {
     width: 35%;
 }
 
-.flex.text > p {
+p {
     font-size: 14px;
-    line-height: 140%;
+    line-height: 160%;
 }
 
 .flex.image {
     width: 60%;
 }
 
-.last-section > .image {
-    width: 100%;
-    margin: 30px 0;
+.text.last {
+    width: 89%;
+    margin: 0 auto;
 }
 
+h3 {
+    height: 50px;
+    width: 50%;
+    line-height: 50px;
+    margin: 15px auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
 
 /* footer */
+
+footer{
+    padding: 80px 0;
+    background-color: #23272a;
+    font-size: 12px;
+    color: white;
+    line-height: 250%;
+}
+
+h4 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#flag {
+    width: 15px;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+.purple {
+    color: #7289da;
+}
 
 .flex-container.foot {
     padding-bottom: 20px;
@@ -137,36 +188,16 @@ h2 {
     border-bottom: 1px solid white;
 }
 
-.big {
-    flex-basis: 30%;
+.align-left.big {
+    flex-basis: 25%;
 }
 
-
-/* DEBUG */
-footer{
-    padding-top: 20px;
-    background-color: cornflowerblue;
-    min-height: 400px;
+.flex-container.small {
+    flex-basis: 75%;
 }
 
-/* .main-container {
-    background-color: #999;
-} */
-
-/* .flex.image {
-    background-color: brown;
-    min-height: 250px;
-} */
-
-/* .flex.text {
-    background-color: darkorange;
-} */
-
-.last-section > .image {
-    min-height: 200px;
-    /* background-color: aquamarine; */
+.fa-brands {
+    font-size: 15px;
+    margin: 5px;
 }
 
-.background-grey {
-    background-color: #f6f6f6;
-}
