@@ -1,0 +1,159 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.container, .last-section {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header style */
+
+header {
+    height: 450px;
+    padding-top: 20px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+}
+
+.logo {
+    height: 30px;
+}
+
+nav > ul {
+    width: 50%;
+}
+
+ul.flex-container {
+    align-items: center;
+}
+
+.jumbotron {
+    width: 60%;
+    margin: 100px auto;
+}
+
+.jumbotron p {
+    line-height: 160%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+/* button style */
+
+.button {
+    border: none;
+    height: 35px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: calc(35px / 2);
+    line-height: calc(35px / 2);
+}
+
+.button.browser {
+    background-color: #23272a;
+    color: white;
+}
+
+.downloader > .button, .last-section > .button {
+    margin-top: 15px;
+}
+
+/* section style */
+.last-section {
+    padding: 50px 0;
+}
+
+.flex.text {
+    width: 30%;
+}
+
+.flex.image {
+    width: 20%;
+    min-height: 250px;
+}
+
+.last-section > .image {
+    width: 100%;
+    margin: 30px 0;
+}
+
+
+/* footer */
+
+.flex-container.foot {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.big {
+    flex-basis: 30%;
+}
+
+
+/* DEBUG */
+footer{
+    padding-top: 20px;
+    background-color: cornflowerblue;
+    min-height: 400px;
+}
+
+/* .main-container {
+    background-color: #999;
+} */
+
+/* .flex.image {
+    background-color: brown;
+    min-height: 250px;
+} */
+
+.flex.text {
+    background-color: darkorange;
+}
+
+.last-section > .image {
+    min-height: 200px;
+    /* background-color: aquamarine; */
+}
+
+.background-grey {
+    background-color: grey;
+}
